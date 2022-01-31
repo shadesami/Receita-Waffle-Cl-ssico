@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 20px 20px
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px 40px;
+    border-radius: 10px;
+}
+
+.titulo-principal {
+    font-size: 28px;
+    text-align: center;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    padding-top: 18px;
+    padding-bottom: 17px;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.titulo-ingredientes, .titulo-preparo, .titulo-infos {
+    font-size: 20px;
+    text-align: center;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.lista-ingredientes, .lista-preparo {
+    font-size: 16px;
+    line-height: 26px;
+    list-style-position: outside;
+    color: #39393A;
+    padding-bottom: 20px;
+    padding-left: 8px;
+}
+
+li {
+    margin: 15px 0
+}
+
+.infos {
+    font-size: 16px;
+    color: #39393A;
+}
+
+figcaption {
+    font-size: 12px;
+    text-align: right;
+    color: #8F8F8F;
+    padding-bottom: 30px
+}
+
+.rodape {
+    font-size: 12px;
+    text-align: center;
+    color:#8F8F8F;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+}
